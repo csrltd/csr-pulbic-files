@@ -1,0 +1,166 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+}
+.container .main {
+  flex-grow: 1;
+}
+.container .main header {
+  background-color: #ECF4E4;
+  display: flex;
+  flex-direction: row;
+  gap: 72px;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 12px 4rem;
+}
+.container .main header .search {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  background-color: white;
+  border-radius: 6px;
+  padding: 6px 12px;
+  width: 300px;
+}
+.container .main header .search input {
+  outline: none;
+  border: none;
+  width: 100%;
+}
+.container .main header .search span {
+  background-color: #3C8464;
+  padding: 6px;
+  border-radius: 8px;
+}
+.container .main header .cart {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+}
+.container .main header .cart div {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  background-color: white;
+  padding-left: 6px;
+  font-size: 12px;
+  border-radius: 8.3333333333px;
+}
+.container .main header .cart div span {
+  background-color: #3C8464;
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  border-radius: 8px;
+  color: white;
+}
+.container .main header .cart div:last-child {
+  background-color: inherit;
+}
+.container .main header .settings {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.7);
+}
+.container .main header .user {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+}
+.container .main header .user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .main header .user div p:first-child {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+}
+.container .main header .user div p:last-child {
+  color: gray;
+  font-size: 12px;
+}
+.container .main .content {
+  background-color: #ECF4E4;
+  padding: 12px;
+  margin: 24px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  gap: 12px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.container .main .content .left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 60%;
+}
+.container .main .content .left-side .information {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: white;
+  padding: 18px;
+  border-radius: 9.2307692308px;
+  width: 100%;
+}
+.container .main .content .left-side .information h1 {
+  font-size: 16px;
+}
+.container .main .content .left-side .information .cards-holder {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+.container .main .content .left-side .information .cards-holder .card {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  padding: 7.5px 0;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+  width: -moz-fit-content;
+  width: fit-content;
+  justify-content: space-between;
+}
+.container .main .content .left-side .information .cards-holder .card p {
+  font-size: 14px;
+}
+.container .main .content .left-side .information .cards-holder .card p:first-child {
+  font-weight: bold;
+}
+.container .main .content .left-side .information .cards-holder .card p span {
+  color: rgb(15, 176, 15);
+  margin-left: 6px;
+  font-size: 12px;
+}
+.container .main .content .left-side .information .cards-holder > div {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  width: 100%;
+}
+.container .main .content .right-side {
+  height: 24em;
+  width: 40%;
+  background-color: white;
+  border-radius: 9.2307692308px;
+}/*# sourceMappingURL=admin.css.map */
